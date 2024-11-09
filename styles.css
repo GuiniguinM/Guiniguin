@@ -1,0 +1,92 @@
+body{
+    color: #db95e7;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.4;
+    text-align: center;
+    background-color: #301934;
+}
+
+h1,h2{
+    text-align: center;
+}
+
+h1{
+    font-size: 6rem;
+}
+
+h2{
+    font-size: 4.2rem;
+}
+
+#welcome-section{
+    background-color: #1c0a1f;
+    width: 100%;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    justify-content: center;
+}
+
+li{
+    margin: 0 15px;
+}
+
+a{
+    text-decoration: none;
+    color: lightpink
+}
+
+img{
+    width: 400px;
+    height: 400px;
+    margin: 50px;
+    border: 2px solid plum;
+}
+
+#proj-grid{
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+    border: 3px solid black;
+}
+
+.project-title{
+    background-color: blueviolet;
+    height: 50px;
+    width: 400px;
+    text-align: center;
+    margin: 50px;
+}
+
+#navbar{
+    color: blueviolet;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #5e1b69;
+    z-index: 1000;
+}
+
+#contact{
+    background-color: #1c0a1f;
+    width: 100%;
+}
+
+#profile-link{
+    margin: 20px;
+}
+
+@media(max-width: 600px){
+    #navbar ul, li{
+        display: block;
+        margin-bottom: 10px;
+    }
+}
